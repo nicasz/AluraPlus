@@ -1,5 +1,3 @@
-
-
 :root {
 
     --branco-principal: #FFFFFF;    
@@ -150,6 +148,46 @@
     
     }
     
+    .rodape lista { display: flex;
+
+    justify-content: center; 
+    list-style-type: none;
+     margin-top: 1em;
+    }
     
-    /*-------------------------------------------------  Continuação ---------------------------------------------*/
+    .lista__link a{ 
+    text-decoration: none;
+    text-decoration: none; 
+    Color: var(--branco-principal); 
+    margin: 0 16px 0 16px; font-size: 14px;
     
+    }
+    
+    .rodape_texto { 
+    margin: 1em 0; 
+    color: var(--cinza-secundario); font-size: 12px;
+    
+    }
+
+    .rodape {
+        text-align: center;
+        margin: 5em 3em;
+      
+      }
+      
+      
+      .lista__link a:hover{
+        color: var(--botao-azul);
+      
+      }
+      
+      .lista__llink a:active{
+        color: purple;
+      
+      } 
+      
+      .container__botao:hover{
+       background-color:var(--botao-azul-efeito);
+       color: var(--cor-de-fundo);
+      
+      }
